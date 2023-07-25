@@ -1,2 +1,6 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<h1>Blog posts</h1>
+
+{#each posts as post}
+    <h2>{post.title}</h2>
+    <a href="/posts/{post.id}">Read more</a>
+{/each}
