@@ -1,38 +1,24 @@
-# create-svelte
+# SvelteKit Static Adapter demo
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+This is the companion repo to the blog post "(The missing guide to understanding adapter-static in SvelteKit)[https://khromov.se/the-missing-guide-to-understanding-adapter-static-in-sveltekit/]"
 
-## Creating a project
+Try the live demo at: https://static-adapter-demo.vercel.app/
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Running
 
 ```bash
+nvm use # Or use Node.js version 19
+npm i
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+Go to http://localhost:5173/
 
-To create a production version of your app:
+
+## Building and running in production mode
 
 ```bash
-npm run build
+npm run serve
 ```
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Go to http://localhost:8080/
