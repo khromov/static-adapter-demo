@@ -1,8 +1,7 @@
 <script>
 	export let data;
-    $: console.log(data);
 </script>
 
 <h1>
-	A totally (not) random number: {data.random}
+	A (maybe?) random number: {data.number}
 </h1>
