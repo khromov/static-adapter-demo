@@ -1,1 +1,1 @@
-I am a prerendered route!
+I am a dynamic route!
